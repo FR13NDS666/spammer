@@ -15,13 +15,14 @@ merah = '\x1b[1;91m'
 gelap = '\x1b[0;37m'
 
 logo = """
-%s ___ _ __   __ _ _ __ ___  _ __ ___   ___ _ __
-/ __| '_ \ / _` | '_ ` _ \| '_ ` _ \ / _ \ '__|
-\__ \ |_) | (_| | | | | | | | | | | |  __/ |
-|___/ .__/ \__,_|_| |_| |_|_| |_| |_|\___|_|
-    | | %sAuthor %s: %sRizky ID
-%s    |_| %sGithub %s: %shttps://github.com/hekelpro
-"""%(cyan,hijau,merah,putih,cyan,hijau,merah,putih)
+%s        ... ╔════════════════╕
+            ..║      WELCOME      │
+              ╠════════════════╡
+              ║      SPAMSMS      │
+              ╚════════════════●
+         %sAuthor %s: %sFR13NDS
+%s       %sGithub %s: %shttps://github.com/FR13NDS666
+"""%(cyan,hijau,merah,biru,cyan,hijau,merah,putih)
 
 def main():
     os.system('clear')
@@ -40,13 +41,13 @@ def pilih():
     try:
         ab = raw_input('%s{%s~%s} %sChos Menu %s:%s '%(putih,cyan,putih,biru,merah,hijau))
         if ab =='':
-            print '%s{%s!%s} %sInvalid Menu'%(putih,merah,putih,putih)
+            print '%s{%s!%s} %sInvalid Menu'%(biru,merah,kuning,biru)
             pilih()
         elif ab =='1' or ab =='01': #ayosrc
             try:
                 print '%s<{%sEX%s: %s628xxx%s}>'%(putih,biru,merah,hijau,putih)
-                nomor = raw_input('%s{%s+%s}%s Number Phone %s:%s '%(putih,hijau,putih,putih,merah,biru))
-                jumla = raw_input('%s{%s+%s}%s Jumlah Spam  %s:%s '%(putih,hijau,putih,putih,merah,biru));print ''
+                nomor = raw_input('%s{%s+%s}%s Number Phone %s:%s '%(putih,hijau,kuning,putih,merah,biru))
+                jumla = raw_input('%s{%s+%s}%s Jumlah Spam  %s:%s '%(putih,hijau,kuning,putih,merah,biru));print ''
                 url = 'https://nabil.my.id/api/ayosrcspam'
                 r = requests.Session()
                 head = {'content-length': '27', 'accept': '*/*', 'origin': 'https://nabil.my.id', 'x-requested-with': 'XMLHttpRequest', 'user-agent': 'Mozilla/5.0 (Linux; Android 8.1.0; vivo 1724) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.73 Mobile Safari/537.36', 'content-type': 'application/x-www-form-urlencoded; charset=UTF-8', 'referer': 'https://nabil.my.id/Ayo_Src_Bom', 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
