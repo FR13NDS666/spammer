@@ -15,12 +15,18 @@ merah = '\x1b[1;91m'
 gelap = '\x1b[0;37m'
 
 logo = """
-%s ___ _ __   __ _ _ __ ___  _ __ ___   ___ _ __
-/ __| '_ \ / _` | '_ ` _ \| '_ ` _ \ / _ \ '__|
-\__ \ |_) | (_| | | | | | | | | | | |  __/ |
-|___/ .__/ \__,_|_| |_| |_|_| |_| |_|\___|_|
-    | | %sAuthor %s: %sRizky ID
-%s    |_| %sGithub %s: %shttps://github.com/hekelpro
+%s ╭━┳━╭━╭━╮╮
+┃         ┣▅╋▅┫┃
+┃   ┃   ╰━╰━━━━━━╮
+╰┳╯               ◢▉◣
+   ┃               ▉▉▉
+   ┃               ◥▉◤
+   ┃       ╭━┳━━━━╯
+   ┣━━━━━━┫
+╭╯　　　 　╰╮
+
+           %sAuthor %s: %sFR13NDS
+%s         %sGithub %s: %shttps://github.com/FR13NDS666
 """%(cyan,hijau,merah,putih,cyan,hijau,merah,putih)
 
 def main():
